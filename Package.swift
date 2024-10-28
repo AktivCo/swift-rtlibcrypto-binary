@@ -14,6 +14,6 @@ let package = Package(
             targets: ["libcrypto"]),
     ],
     targets: [
-        .binaryTarget(name: "libcrypto", url: "https://nexus.aktivco.ru/repository/xcframework_v2/libcrypto-3-shared/test_cert=false,restricted=false,upstream=true/openssl-3.0.14-master/libcrypto-3-shared-9cff14fd97814baf8a9a07d8447960a64d616ada-82d80d3b52a0c0887647eeb9c49b54209c2ccf1f-apple-priv-sign.zip", checksum: "0d47a75af122732afb6d3e034038f547043f6f72addc114dd9e76a56711db5a8")
+        .binaryTarget(name: "libcrypto", url: "https://nexus.aktivco.ru/repository/xcframework_v2/libcrypto-3-shared/test_cert=false,restricted=false,upstream=true/openssl-3.0.14-master/libcrypto-3-shared-9cff14fd97814baf8a9a07d8447960a64d616ada-82d80d3b52a0c0887647eeb9c49b54209c2ccf1f-apple-privacy-signed-stable.zip", checksum: "1c5486f9c6df6266468cfa640f3271b17f8034760d2edc624467b2f494b70bf4")
     ]
 )
